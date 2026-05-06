@@ -847,10 +847,6 @@ body{display:flex;flex-direction:column}
       <div class="pm-label">Local / Obra</div>
       <input class="pm-input" type="text" id="pm-site" placeholder="Nome do local ou obra"/>
     </div>
-    <div class="pm-field">
-      <div class="pm-label">WhatsApp (com código país)</div>
-      <input class="pm-input" type="tel" id="pm-wa" placeholder="+351 912 345 678"/>
-    </div>
     <button id="pm-save" onclick="saveProfile()">💾 Guardar perfil</button>
     <button id="pm-close-btn" onclick="closeProfileModal()">Cancelar</button>
   </div>
@@ -879,7 +875,7 @@ const KEY_RECORDS = 'pi_records_v2';
 const KEY_PROFILE = 'pi_profile_v2';
 const KEY_ALARM   = 'pi_alarm_v2';
 const KEY_SILENCE = 'pi_alarm_silence';
-const WA_NUMBER   = '351912345678'; // fallback
+const WA_NUMBER   = '351939910536'; // fallback
 
 let records  = JSON.parse(localStorage.getItem(KEY_RECORDS)  || '[]');
 let profile  = JSON.parse(localStorage.getItem(KEY_PROFILE)  || '{}');
